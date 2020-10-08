@@ -1,0 +1,7 @@
+Feature: LogOut
+
+  @smoke
+  Scenario: LogOut as a Manager
+    Given I login as a manager
+    When I LogOut from app
+    Then I able to view SignIn page

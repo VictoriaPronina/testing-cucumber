@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 398989778,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Login page",
+            "match": {
+              "location": "SignInStepDefs.i_am_on_the_Login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-10-08T22:55:57.302Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3377723546,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "SignIn as a Manager (free user)",
+        "description": "",
+        "id": "registation;signin-as-a-manager-(free-user)",
+        "after": [
+          {
+            "result": {
+              "duration": 82487736,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1475275479,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I SignIn as a manager",
+            "match": {
+              "location": "SignInStepDefs.i_SignIn_as_a_manager()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5544257,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on the Home Page",
+            "match": {
+              "location": "SignInStepDefs.i_am_on_the_Home_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test2"
+          }
+        ]
+      }
+    ],
+    "name": "Registation",
+    "description": "",
+    "id": "registation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/SignIn.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "source": "I am on the Login page",
+    "steps": [
+      {
+        "name": "I am on the Login page",
+        "aggregatedDurations": {
+          "median": 0.398989778,
+          "average": 0.398989778
+        },
+        "durations": [
+          {
+            "duration": 0.398989778,
+            "location": "file:src/test/resources/features/SignIn.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I SignIn as a manager",
+    "steps": [
+      {
+        "name": "I SignIn as a manager",
+        "aggregatedDurations": {
+          "median": 1.475275479,
+          "average": 1.475275479
+        },
+        "durations": [
+          {
+            "duration": 1.475275479,
+            "location": "file:src/test/resources/features/SignIn.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I am on the Home Page",
+    "steps": [
+      {
+        "name": "I am on the Home Page",
+        "aggregatedDurations": {
+          "median": 0.005544257,
+          "average": 0.005544257
+        },
+        "durations": [
+          {
+            "duration": 0.005544257,
+            "location": "file:src/test/resources/features/SignIn.feature:9"
+          }
+        ]
+      }
+    ]
+  }
+]
